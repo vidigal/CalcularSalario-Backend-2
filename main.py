@@ -7,7 +7,7 @@ if __name__ == "__main__":
 
 @api.route('/api')
 def ola_mundo():
-    return jsonify({'text': 'Olá Mundo'})
+    return jsonify({'text': 'Olá Todo Mundo'})
 
 @api.route('/api/hello_world')
 def hello_world():
