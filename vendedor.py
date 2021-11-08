@@ -1,8 +1,8 @@
 class Vendedor:
 
-    def __init__(self, nome, meses_contrato, valor_venda):
+    def __init__(self, nome, meses_contratado, valor_venda):
         self.nome = nome
-        self.meses_contrato = meses_contrato
+        self.meses_contratado = meses_contratado
         self.valor_venda = valor_venda
 
     def calcular_salario_base(self):
